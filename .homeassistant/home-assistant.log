@@ -1,0 +1,104 @@
+2018-12-18 10:22:54 WARNING (MainThread) [homeassistant.components.http] legacy_api_password support has been enabled. If you don't require it, remove the 'api_password' from your http config.
+2018-12-18 10:23:07 WARNING (MainThread) [homeassistant.setup] Setup of recorder is taking over 10 seconds.
+2018-12-18 10:23:07 WARNING (MainThread) [homeassistant.setup] Setup of frontend is taking over 10 seconds.
+2018-12-18 10:23:22 WARNING (MainThread) [homeassistant.setup] Setup of tibber is taking over 10 seconds.
+2018-12-18 10:23:28 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 10:23:52 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 10:23:54 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 11:23:17 ERROR (MainThread) [homeassistant.components.updater] Got unexpected response: None
+2018-12-18 11:23:26 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 12:23:29 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 13:21:33 WARNING (MainThread) [homeassistant.helpers.entity] Update of media_player.bad is taking over 10 seconds
+2018-12-18 13:21:34 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:21:45 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:21:56 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:22:07 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:22:18 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:22:29 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:22:40 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:22:51 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:23:02 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:23:13 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:23:24 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:23:33 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 13:23:35 WARNING (MainThread) [homeassistant.components.media_player] Updating sonos media_player took longer than the scheduled update interval 0:00:10
+2018-12-18 13:23:37 ERROR (MainThread) [homeassistant.helpers.entity] Update for media_player.bad fails
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+TimeoutError: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.5/http/client.py", line 1107, in request
+    self._send_request(method, url, body, headers)
+  File "/usr/lib/python3.5/http/client.py", line 1152, in _send_request
+    self.endheaders(body)
+  File "/usr/lib/python3.5/http/client.py", line 1103, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python3.5/http/client.py", line 934, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.5/http/client.py", line 877, in send
+    self.connect()
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/connection.py", line 196, in connect
+    conn = self._new_conn()
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0xa7adff30>: Failed to establish a new connection: [Errno 110] Connection timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/requests/adapters.py", line 445, in send
+    timeout=timeout
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/srv/homeassistant/lib/python3.5/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='192.168.1.33', port=1400): Max retries exceeded with url: /ZoneGroupTopology/Event (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xa7adff30>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/helpers/entity.py", line 221, in async_update_ha_state
+    await self.async_device_update()
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/helpers/entity.py", line 349, in async_device_update
+    await self.hass.async_add_job(self.update)
+  File "/usr/lib/python3.5/asyncio/futures.py", line 380, in __iter__
+    yield self  # This tells Task to wait for completion.
+  File "/usr/lib/python3.5/asyncio/tasks.py", line 304, in _wakeup
+    future.result()
+  File "/usr/lib/python3.5/asyncio/futures.py", line 293, in result
+    raise self._exception
+  File "/usr/lib/python3.5/concurrent/futures/thread.py", line 55, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/media_player/sonos.py", line 504, in update
+    self._subscribe_to_player_events()
+  File "/srv/homeassistant/lib/python3.5/site-packages/homeassistant/components/media_player/sonos.py", line 492, in _subscribe_to_player_events
+    player.zoneGroupTopology.subscribe(auto_renew=True, event_queue=queue)
+  File "/srv/homeassistant/lib/python3.5/site-packages/pysonos/services.py", line 590, in subscribe
+    requested_timeout=requested_timeout, auto_renew=auto_renew)
+  File "/srv/homeassistant/lib/python3.5/site-packages/pysonos/events.py", line 494, in subscribe
+    headers=headers)
+  File "/srv/homeassistant/lib/python3.5/site-packages/requests/api.py", line 58, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/srv/homeassistant/lib/python3.5/site-packages/requests/sessions.py", line 512, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/srv/homeassistant/lib/python3.5/site-packages/requests/sessions.py", line 622, in send
+    r = adapter.send(request, **kwargs)
+  File "/srv/homeassistant/lib/python3.5/site-packages/requests/adapters.py", line 513, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.1.33', port=1400): Max retries exceeded with url: /ZoneGroupTopology/Event (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0xa7adff30>: Failed to establish a new connection: [Errno 110] Connection timed out',))
+2018-12-18 14:23:36 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 15:23:40 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 16:23:43 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting
+2018-12-18 17:23:46 ERROR (MainThread) [homeassistant.core] Timer got out of sync. Resetting

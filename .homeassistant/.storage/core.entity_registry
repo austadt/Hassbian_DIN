@@ -1,0 +1,62 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "sensor.electricity_price_osvegen_13",
+                "name": null,
+                "platform": "tibber",
+                "unique_id": "707057500083229795"
+            },
+            {
+                "config_entry_id": "c613a34194284808927f3d739d866865",
+                "device_id": "18ce787109684358a92518bc8a22ee2e",
+                "disabled_by": null,
+                "entity_id": "media_player.gang_nede_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "9f949dc0-e993-5dbb-095d-841bcab8d1ce"
+            },
+            {
+                "config_entry_id": "c613a34194284808927f3d739d866865",
+                "device_id": "b8996e27ae554572aee96b541b6973fd",
+                "disabled_by": null,
+                "entity_id": "media_player.stue",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "1191b2b5-4bc3-be33-1d9d-ee8237f277e4"
+            },
+            {
+                "config_entry_id": "c613a34194284808927f3d739d866865",
+                "device_id": "83816b95655242d0bda56ad4b2b13b90",
+                "disabled_by": null,
+                "entity_id": "media_player.stue_speaker",
+                "name": null,
+                "platform": "cast",
+                "unique_id": "d56540f8-62f0-9e2f-d9e7-6ee62ee7453d"
+            },
+            {
+                "config_entry_id": "83f028f9ec9644b7a26fab3f967fda6e",
+                "device_id": "d6134c44818c4a87a7b9dbf39ad3cc7c",
+                "disabled_by": null,
+                "entity_id": "media_player.bad",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_5CAAFD4ADA4401400"
+            },
+            {
+                "config_entry_id": "83f028f9ec9644b7a26fab3f967fda6e",
+                "device_id": "1e542bb5a1724f258f008c0e495e178e",
+                "disabled_by": null,
+                "entity_id": "media_player.kjkken",
+                "name": null,
+                "platform": "sonos",
+                "unique_id": "RINCON_B8E937E54D9801400"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

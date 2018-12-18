@@ -1,0 +1,98 @@
+{
+    "data": {
+        "devices": [
+            {
+                "config_entries": [
+                    "c613a34194284808927f3d739d866865"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "18ce787109684358a92518bc8a22ee2e",
+                "identifiers": [
+                    [
+                        "cast",
+                        "9f949dc0e9935dbb095d841bcab8d1ce"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Gang nede speaker",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "c613a34194284808927f3d739d866865"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "b8996e27ae554572aee96b541b6973fd",
+                "identifiers": [
+                    [
+                        "cast",
+                        "1191b2b54bc3be331d9dee8237f277e4"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Chromecast",
+                "name": "Stue",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "c613a34194284808927f3d739d866865"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "83816b95655242d0bda56ad4b2b13b90",
+                "identifiers": [
+                    [
+                        "cast",
+                        "d56540f862f09e2fd9e76ee62ee7453d"
+                    ]
+                ],
+                "manufacturer": "Google Inc.",
+                "model": "Google Home Mini",
+                "name": "Stue speaker",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "83f028f9ec9644b7a26fab3f967fda6e"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "d6134c44818c4a87a7b9dbf39ad3cc7c",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_5CAAFD4ADA4401400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Play:1",
+                "name": "Bad",
+                "sw_version": null
+            },
+            {
+                "config_entries": [
+                    "83f028f9ec9644b7a26fab3f967fda6e"
+                ],
+                "connections": [],
+                "hub_device_id": null,
+                "id": "1e542bb5a1724f258f008c0e495e178e",
+                "identifiers": [
+                    [
+                        "sonos",
+                        "RINCON_B8E937E54D9801400"
+                    ]
+                ],
+                "manufacturer": "Sonos",
+                "model": "Play:1",
+                "name": "Kj\u00f8kken",
+                "sw_version": null
+            }
+        ]
+    },
+    "key": "core.device_registry",
+    "version": 1
+}

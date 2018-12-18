@@ -1,0 +1,13 @@
+{
+    "data": {
+        "salt": "b283f65d61926fae6a42c6a8f25d88b17b2bd7637971702038ee38f558fad951",
+        "users": [
+            {
+                "password": "JDJiJDEyJDFqdmdibjZVMDRSMHRJN0c5L013UXVWVXYuSlFHZ2xheVNkaWwuOXJYQ2IzQnRKUHBTV3A2",
+                "username": "tore"
+            }
+        ]
+    },
+    "key": "auth_provider.homeassistant",
+    "version": 1
+}
